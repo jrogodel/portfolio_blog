@@ -1,0 +1,27 @@
+@import "normalize";
+@import "vars";
+@import "typography";
+@import "header";
+@import "welcome";
+@import "footer";
+
+* {
+	box-sizing: border-box;
+}
+
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	padding: 3.5rem 0;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
