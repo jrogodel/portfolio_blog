@@ -1,4 +1,4 @@
-.post_wrapper {
+.wrapper_post {
 	padding: 3rem 0;
 	.post {
 		text-align: center;
@@ -25,17 +25,4 @@
 }
 
 
-.skinny_wrapper {
-	width: 80%;
-	max-width: 760px;
-	margin: 0 auto;
-}
-
-#page_title {
-	font-size: 1.3em;
-	// font-weight: 400;
-	text-align: center;
-	border-bottom: 1px solid $border;
-	padding: 3rem 0;
-}
 
