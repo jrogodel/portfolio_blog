@@ -38,3 +38,12 @@ p, li {
 p, ul, ol {
 	margin: 0 0 1.6rem 0;
 }
+
+hr {
+	width: 3rem;
+	display: block;
+	height: 2px;
+	border: 0;
+	border-top: 2px solid $highlight;
+	margin: 2rem 0;
+}
