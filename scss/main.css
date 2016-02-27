@@ -498,6 +498,40 @@ hr {
   border-bottom: 1px solid #e9e9e9;
   padding: 3rem 0; }
 
+.pagination:before,
+.pagination:after {
+  content: " ";
+  display: table; }
+
+.pagination:after {
+  clear: both; }
+
+.pagination {
+  text-align: center;
+  margin: 0 0 3rem 0; }
+  .pagination a, .pagination .previous_page, .pagination .current, .pagination .next_page {
+    padding: .75rem 1rem;
+    margin: 0 .5rem;
+    border-radius: .15rem;
+    text-decoration: none;
+    line-height: 20px;
+    font-weight: 700;
+    font-size: .7rem;
+    font-style: none;
+    background: #ffffff;
+    color: #424652; }
+    .pagination a:hover, .pagination .previous_page:hover, .pagination .current:hover, .pagination .next_page:hover {
+      background: #8bc6db;
+      color: #ffffff; }
+  .pagination .current {
+    color: #ffffff;
+    background: #8bc6db; }
+  .pagination .disabled {
+    color: #c0c0c0; }
+    .pagination .disabled:hover {
+      color: #c0c0c0;
+      background: #ffffff; }
+
 * {
   box-sizing: border-box; }
 
